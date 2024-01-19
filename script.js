@@ -26,7 +26,7 @@ function purchase() {
         money -= parseInt(document.getElementById("Cost").innerHTML);
         document.getElementById("Moolah").innerHTML = "$" + money.toString();
         if (parseInt(document.getElementById("Cost").innerHTML) > 0) {    
-            document.getElementById("Name").innerHTML += " owned by " + document.getElementById("Identification").value + parseInt(document.getElementById("Cost").innerHTML));
+            document.getElementById("Name").innerHTML += " owned by " + document.getElementById("Identification").value;
         }
         document.getElementById("Cost").innerHTML = "0";
         if (Galaxies[point].split("|").length < 2) {
