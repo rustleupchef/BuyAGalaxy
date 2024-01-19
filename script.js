@@ -12,7 +12,6 @@ function next() {
     if (point > Galaxies.length - 2) {
         point = 0;
     }
-
     let info = Galaxies[point].split("|")[0].split(",");
     document.getElementById("Name").innerHTML = info[0];
     document.getElementById("Pic").src = info[1];
@@ -22,7 +21,6 @@ function next() {
         document.getElementById("Name").innerHTML += " owned by " + document.getElementById("Identification").value;
     }
 }
-
 function purchase() {
     if (money >= parseInt(document.getElementById("Cost").innerHTML)) {
         money -= parseInt(document.getElementById("Cost").innerHTML);
@@ -35,7 +33,5 @@ function purchase() {
         if (Galaxies[point].split("|").length < 2) {
             Galaxies[point] += "|0"
         }
-       
     }
-   
 }
