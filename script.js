@@ -2,7 +2,7 @@ let money = 200;
 let Galaxies;
 let point = 0;
 let Purchased = [];
-fetch("https://raw.githubusercontent.com/rustleupchef/BuyAGalaxy/main/Galaxies.csv")
+fetch("https://raw.githubusercontent.com/rustleupchef/buyagalxy.github.io/main/Galaxies.csv")
     .then((response) => response.text())
     .then((data) => {
         Galaxies = data.split("\n");
