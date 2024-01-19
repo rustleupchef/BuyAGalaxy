@@ -33,4 +33,7 @@ function purchase() {
             Galaxies[point] += "|0"
         }
     }
+    if (Galaxies[point].split(":")[0].split(",")[0] === "Milky Way") {
+        document.getElementById("Name").innerHTML = "You just got scammed oh reheheheh";
+    }
 }
