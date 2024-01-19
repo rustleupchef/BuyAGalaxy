@@ -25,7 +25,7 @@ function purchase() {
     if (money >= parseInt(document.getElementById("Cost").innerHTML)) {
         money -= parseInt(document.getElementById("Cost").innerHTML);
         document.getElementById("Moolah").innerHTML = "$" + money.toString();
-        if (parseInt(document.getElementById("Cost")) > 0) {    
+        if (parseInt(document.getElementById("Cost").innerHTML) > 0) {    
             document.getElementById("Name").innerHTML += " owned by " + document.getElementById("Identification").value;
         }
         document.getElementById("Cost").innerHTML = "0";
