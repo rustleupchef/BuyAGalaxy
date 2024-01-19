@@ -19,6 +19,7 @@ function next() {
     document.getElementById("Cost").innerHTML = info[2];
     if (Galaxies[point].split("|").length === 2) {
         document.getElementById("Cost").innerHTML = "0";
+        document.getElementById("Name").innerHTML += " owned by " + document.getElementById("Identification").value;
     }
 }
 
@@ -32,7 +33,7 @@ function purchase() {
             Galaxies[point] += "|0"
         }
     }
-    if (document.getElementById("Cost").innerHTML !== 0) {
+    if (document.getElementById("Cost").innerHTML !== "0") {
         document.getElementById("Name").innerHTML += " owned by " + document.getElementById("Identification").value;
     }
 }
