@@ -26,11 +26,11 @@ function next() {
 function purchase() {
     if (money >= parseInt(document.getElementById("Cost").innerHTML)) {
         money -= parseInt(document.getElementById("Cost").innerHTML);
+        document.getElementById("Name").innerHTML += " owned by " + document.getElementById("Identification").value;
     }
     document.getElementById("Moolah").innerHTML = "$" + money.toString();
     document.getElementById("Cost").innerHTML = "0";
     if (Galaxies[point].split("|").length < 2) {
         Galaxies[point] += "|0"
     }
-    document.getElementById("Name").innerHTML += " owned by " + document.getElementById("Identification").value;
 }
