@@ -1,0 +1,81 @@
+#Pic {
+    position: absolute;
+    width: 69%;
+    height: 35%;
+    left: 25%;
+    top: 10%;
+    border: 10px solid black;
+}
+
+#BackroundN {
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    left: 25%;
+    top: 50%;
+    border: 10px solid black;
+}
+
+#Name {
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    left: 25%;
+    top: 15%;
+    text-align: center;
+}
+
+#Purchase {
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    left: 25%;
+    top: 82%;
+}
+
+#Next {
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    right: 2%;
+    top: 49%;
+    font-size: 200%;
+    
+}
+
+#Identification {
+    position: absolute;
+    width: 18%;
+    height: 20%;
+    left: 1%;
+    bottom: 5%;
+    font-size: 200%;
+    
+}
+
+#Cost {
+    position: absolute;
+    height: 30%;
+    width: 18%;
+    left: 1%;
+    top: -10%;
+    border: 10px solid black;
+    text-align: center;
+    font-size: 1000%;
+}
+
+#Moolah {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    right: 2%;
+    top: 80%;
+    text-align: center;
+    border: 10px solid black;
+    font-size: 300%;
+}
+
+img {
+    width: 50%;
+    height: 35%;
+}
